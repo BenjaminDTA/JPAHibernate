@@ -4,7 +4,6 @@ package dao;
 import javax.persistence.EntityManager;
 
 import modele.Book;
-jdlkjkdsl
 
 public class BookDAO {
 	public static void createBook(Book bk) {
