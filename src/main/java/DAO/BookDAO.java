@@ -1,15 +1,10 @@
-package DAO;
+package dao;
 
-
-import java.util.List;
 
 import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
-import javax.persistence.TypedQuery;
 
-import Modele.Book;
-import Modele.Client;
+import modele.Book;
+
 
 public class BookDAO {
 	public static void createBook(Book bk) {

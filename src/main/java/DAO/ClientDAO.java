@@ -1,10 +1,8 @@
-package DAO;
+package dao;
 
 import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
 
-import Modele.Client;
+import modele.Client;
 
 public class ClientDAO {
 	public static void createClient(Client c) {

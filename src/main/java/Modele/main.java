@@ -1,19 +1,15 @@
-package Modele;
+package modele;
 
-import java.sql.Connection;
 import java.sql.SQLException;
-import java.sql.Statement;
 
 import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
 
-import DAO.ClientDAO;
-import DAO.DatabaseHelper;
+import dao.ClientDAO;
+import dao.DatabaseHelper;
 
 public class main {
 
-	public static void main(String[] args) throws SQLException {
+	public main(String[] args) throws SQLException {
 
 		EntityManager em = DatabaseHelper.createEntityManager();
 
