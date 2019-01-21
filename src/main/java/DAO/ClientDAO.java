@@ -5,6 +5,11 @@ import javax.persistence.EntityManager;
 import modele.Client;
 
 public class ClientDAO {
+	
+	public ClientDAO() {
+		
+	}
+	
 	public static void createClient(Client c) {
 		EntityManager em = DatabaseHelper.createEntityManager();
 		DatabaseHelper.beginTx(em);

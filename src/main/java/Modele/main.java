@@ -1,6 +1,5 @@
 package modele;
 
-import java.sql.SQLException;
 
 import javax.persistence.EntityManager;
 
@@ -9,7 +8,7 @@ import dao.DatabaseHelper;
 
 public class Main {
 
-	public void main(String[] args) throws SQLException {
+	public void main(String[] args) {
 
 		EntityManager em = DatabaseHelper.createEntityManager();
 
