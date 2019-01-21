@@ -8,7 +8,7 @@ import dao.DatabaseHelper;
 
 public class Main {
 
-	public void main(String[] args) {
+	public void main() {
 
 		EntityManager em = DatabaseHelper.createEntityManager();
 

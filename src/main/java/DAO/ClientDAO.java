@@ -6,7 +6,7 @@ import modele.Client;
 
 public class ClientDAO {
 	
-	public ClientDAO() {
+	private ClientDAO() {
 		
 	}
 	
