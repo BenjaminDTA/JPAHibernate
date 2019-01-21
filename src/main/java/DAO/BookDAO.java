@@ -6,6 +6,10 @@ import javax.persistence.EntityManager;
 import modele.Book;
 
 public class BookDAO {
+	
+	private BookDAO() {
+	}
+	
 	public static void createBook(Book bk) {
 
 		EntityManager em = DatabaseHelper.createEntityManager();

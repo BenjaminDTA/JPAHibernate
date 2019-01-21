@@ -15,9 +15,9 @@ public class Book {
 	@GeneratedValue()
 	private Integer id;
 	@Column
-	private String Title;
+	private String title;
 	@Column
-	private String Author;
+	private String author;
 	@OneToMany(mappedBy = "livrepref")
 	private List<Client> clients;
 	
@@ -32,8 +32,8 @@ public class Book {
 
 	public Book(String title, String author) {
 		super();
-		Title = title;
-		Author = author;
+		this.title = title;
+		this.author = author;
 	}
 	
 	public Integer getId() {
@@ -45,19 +45,19 @@ public class Book {
 	}
 
 	public String getTitle() {
-		return Title;
+		return title;
 	}
 
 	public void setTitle(String title) {
-		Title = title;
+		this.title = title;
 	}
 
 	public String getAuthor() {
-		return Author;
+		return author;
 	}
 
 	public void setAuthor(String author) {
-		Author = author;
+		this.author = author;
 	}
 
 	

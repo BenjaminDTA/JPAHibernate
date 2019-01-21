@@ -7,9 +7,9 @@ import javax.persistence.EntityManager;
 import dao.ClientDAO;
 import dao.DatabaseHelper;
 
-public class main {
+public class Main {
 
-	public main(String[] args) throws SQLException {
+	public void main(String[] args) throws SQLException {
 
 		EntityManager em = DatabaseHelper.createEntityManager();
 

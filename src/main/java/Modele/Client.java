@@ -37,7 +37,7 @@ public class Client {
 		this.lastname = lastname;
 		this.firstname = firstname;
 		this.gender = gender;
-		this.achatBook = new ArrayList<Book>();
+		this.achatBook = new ArrayList<>();
 
 	}
 
